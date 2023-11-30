@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <link rel="stylesheet" type="text/css" href="netflix.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="header">
+            <a href="netflix.html">
+                <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="image" height="110px" width="190px">
+            </a>
+        </div>
+        <div class="forms">
+            <div class="formback">
+                <h2>Sign In</h2>
+                <form>
+                <input type="email" id="uname" name="email" placeholder="Email or phone number" required><br><br>
+                <input type="password" id="pwd" name="password" style="background-color:rgb(71, 71, 71); border:0px; font-size:100%;" placeholder="Password" required><br><br>
+                <span class="signedin"><button class="hvr3" type="submit" onclick="alert('Signed in successfully !!')"><b><a href="signin.html">Sign In</a></b></button></span>
+                <br><br>
+                <div style="margin-left: -303px; margin-right:0%">
+                    <input type="checkbox" id="remember" name="remember">
+                    <span class="boxlabel"><label for="remember">Remember me</label></span>
+                    <span class="help"><label for="help"><a href="https://www.netflix.com/in/LoginHelp" target="_blank;" style="position: absolute; left:310px; font-size:15px;"><u>Need Help?</u></a></label></span>
+                </div> <br><br><br>
+                </form>
+                <p>New to Netflix? <q><u><a href="netflix.html">Sign up now.</a></u></q></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
